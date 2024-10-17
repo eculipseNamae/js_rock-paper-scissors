@@ -1,0 +1,44 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin:0;
+    padding:0;
+    height: 100vh;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+#header {
+    border: 1px solid blue;
+    width: 300px;
+    text-align: left;
+}
+#container div {
+    height:30px;
+    font-size: 24px;
+    background-color: #424242;
+    color:#ffffff;
+    padding: 20px;
+    border: solid #1f1f1f;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.5s;
+    transition: color 0.5s;
+}
+#container div:hover{
+    cursor:pointer;
+    background-color:#252525;
+}
+#container div:active{
+    cursor:pointer;
+    background-color:#575757;
+}
+
+#container {
+    border: 1px solid red;
+    flex-wrap: wrap;
+    width: 300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
